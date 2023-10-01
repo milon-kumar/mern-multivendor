@@ -7,7 +7,6 @@ const SellerRegister = lazy(() => import('../../views/auth/seller/Register.jsx')
 const publicRoutes = [
     {
         path: "/",
-        Component: '<h1>Welcome to ecomerce</h1>',
     },{
         path: "/admin/login",
         Component: AdinLogin,
